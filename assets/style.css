@@ -1,8 +1,5 @@
 html {
-  background:black url('background.jpg');
-  background-repeat: repeat-x repeat-y;
-  background-position: center center;
-  
+  background:black url('background.jpg') center center;  
   color: white;
   font-family: Helvetica, Arial, sans-serif;
 }

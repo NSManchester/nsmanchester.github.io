@@ -1,5 +1,9 @@
 html {
-  background:black url('background.jpg') center center;  
+
+  background: url('background.jpg'), url('background_tile.jpg');
+  background-repeat: no-repeat, repeat-x;
+  background-position: top center, bottom center;
+  
   color: white;
   font-family: Helvetica, Arial, sans-serif;
 }

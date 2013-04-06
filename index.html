@@ -1,0 +1,64 @@
+---
+layout: layout
+title: NSManchester - Meet up the last Wednesday of the month
+---
+
+<article>
+  <h2>This Months Event</h2>
+  {% for post in site.posts limit:1 %}
+  <h3><a href="{{  post.url }}">{{ post.title }}</a> by <a href="http://twitter.com/{{ post.speaker_twitter }}">{{post.speaker}}</a></h3>
+  <p>{{ post.content | split: '<!-- more -->' | first }}</p>
+  {% endfor %}
+  
+  <div style="text-align:center;"><a href ="/events.html">Past Events</a></div>
+</article>
+  
+<article>
+  <h2>Where and What?</h2>
+  <h3><a href="http://madlab.org.uk">Madlab Manchester</a> at 7pm <span style="font-size:10px"><a href="http://goo.gl/maps/husg">(Directions)</a></h3>
+  <ul>
+    <li>There will be a <em>6pm</em> drop in session if you're intersted in iOS/Mac dev.</li>
+    <li><em>7:30 - 8:00</em> Talk</li>
+    <li><em>8:00 - 9:00</em> Roundtable discussion</li>
+  </ul>
+</article>
+
+<div class="divider"></div>
+
+<article>
+  <h2>Who are we?</h2>
+  <p>We are a group of people in the Manchester area with an interest in iOS or Mac Development ranging from beginners to experts - there's no requirement to be an expert, all you need is to have an interest.</p>
+</article>
+
+<article>
+  <h2>Upcoming Topics</h2>
+  <ul id="upcoming_topics"></ul>
+  <p style="text-align:center;"><a href="https://github.com/NSManchester/nsmanchester.github.com/issues/new?labels=EventTopic">Offer Topic ideas</a> - <a href="https://github.com/NSManchester/nsmanchester.github.com/issues">All Topics</a></p>
+</article>
+
+<div class="divider"></div>
+
+<article class="">
+  <h2>Getting in Touch</h2>
+  <p>If you'd like to get involved you can contribute by being active in the <a href="https://groups.google.com/forum/?fromgroups=#!topic/nsmanchester/-khF6UYr5Vo">mailing list</a>, offer <a href="https://github.com/NSManchester/nsmanchester.github.com/issues">Topic comments / ideas</a> or say hi to <a href="http://twitter.com/NSManchester">@NSManchester</a> / <a href="http://twitter.com/orta">@orta</a>.
+</article>
+
+
+<article>
+  <h2>Mailing List</h2>
+
+  <table border="0" style="background-color:#fff; border: 1px #000 solid; padding: 15px; margin-bottom: 15px" cellspacing="0">
+    <tr><td><img src="http://groups.google.co.uk/groups/img/3nb/groups_bar.gif" height="26" width="132" alt="Google Groups"></td></tr>
+    <form action="http://groups.google.co.uk/group/nsmanchester/boxsubscribe">
+    <tr><td style="padding-left: 5px;"><input type="text" name="email"> <input type="submit" name="sub" value="Subscribe"></td></tr>
+    </form>
+  </table>
+</article>
+
+  <div class="divider"></div>
+  
+  <article class="extended">
+    <h4 style="color:rgba(255,255,255,0.5)"> NSManchester is a meetup event for iOS and Mac developers in &amp; around Manchester and the North West of England. It's ran by <a href="http://ortagithub.io">Orta Therox</a>, hosted by <a href="http://madlab.org.uk">Madlab</a> please sign up to the mailing list above. This site is <a href="https://github.com/nsmanchester/nsmanchester.github.com/">Open Source</a>.
+    </h4>
+  </article>
+  

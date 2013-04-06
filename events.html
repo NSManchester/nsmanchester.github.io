@@ -1,0 +1,25 @@
+---
+layout: layout
+title: NSManchester Events
+---
+
+{% for post in site.posts %}
+	<article class="extended">
+
+		<header>
+				{% if post.link %}
+				<h3><a href="{{ post.link }}" class="link-post">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a> by <a href="{{ post.speaker_homepage }}">{{post.speaker}}</a></h3>
+			  {% else %}
+				<h2><a href="{{ post.url }}">{{ post.title }}</a>  by <a href="{{ post.speaker_homepage }}">{{post.speaker}}</a></h2>
+				{% endif %}
+				<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> 
+				<a href="{{ post.url }}" class="permalink" title="Permalink">Permalink</a>
+
+		</header>
+
+      	{{ post.content }}
+
+	</article>
+{% endfor %}
+
+<div style="text-align:center;margin-top:48px;"><a href ="/">Home</a></div>

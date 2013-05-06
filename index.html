@@ -4,8 +4,8 @@ title: NSManchester - Meet up the last Wednesday of the month
 ---
 
 <article>
-  <h2>This Months Event</h2>
   {% for post in site.posts limit:1 %}
+  <h2>Upcoming Event  <a href="http://www.meetup.com/NSManchester/events/{{ post.meetup_id }}/" data-event="117438902" class="mu-rsvp-btn">RSVP</a></h2>
   <h3><a href="{{  post.url }}">{{ post.title }}</a> by <a href="http://twitter.com/{{ post.speaker_twitter }}">{{post.speaker}}</a></h3>
   <p>{{ post.content | split: '<!-- more -->' | first }}</p>
   {% endfor %}
@@ -40,12 +40,12 @@ title: NSManchester - Meet up the last Wednesday of the month
 
 <article class="">
   <h2>Getting in Touch</h2>
-  <p>If you'd like to get involved you can contribute by being active in the <a href="https://groups.google.com/forum/?fromgroups=#!topic/nsmanchester/-khF6UYr5Vo">mailing list</a>, offer <a href="https://github.com/NSManchester/nsmanchester.github.com/issues">Topic comments / ideas</a> or say hi to <a href="http://twitter.com/NSManchester">@NSManchester</a> / <a href="http://twitter.com/orta">@orta</a>.
+  <p>If you'd like to get involved you can contribute by being active in the <a href="https://groups.google.com/forum/?fromgroups=#!forum/nsmanchester">mailing list</a>, offer <a href="https://github.com/NSManchester/nsmanchester.github.com/issues">Topic comments / ideas</a> or say hi to <a href="http://twitter.com/NSManchester">@NSManchester</a> / <a href="http://twitter.com/orta">@orta</a>.
 </article>
 
 
 <article>
-  <h2>Mailing List</h2>
+  <h2>Mailing List <span style="font-size:10px"><a href="https://groups.google.com/forum/?fromgroups=#!forum/nsmanchester">(Link)</a></h2>
 
   <table border="0" style="background-color:#fff; border: 1px #000 solid; padding: 15px; margin-bottom: 15px" cellspacing="0">
     <tr><td><img src="http://groups.google.co.uk/groups/img/3nb/groups_bar.gif" height="26" width="132" alt="Google Groups"></td></tr>

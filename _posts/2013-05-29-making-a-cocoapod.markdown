@@ -11,7 +11,10 @@ meetup_id: 117438902
 Get the lowdown on the smoothest way to go from taking your source code out of your project and into the public domain. We'll go over setting up a project, including licenses, making sure cocoapods removes your bootstrapping files for testing and then submitting a pull request to get it in the hands of cocoapods.
 
 We also have a guest speaker Andrew who is going to talk about Making a Great Selling App
- <!-- more -->
+
+Andrew had been a games developer since the early 90s and is now working on a startup that will aim to make programmer's lives easier. 
+
+Andrew will cover topics from two books: Rich App Poor App, by Simon K williams, and Appllionaires by Chris Stevens. Plus he will present his own analysis / ideas on what people go for in an app. There will also be a brief dicusssion about some of the latest tools which claim to be able to produce an app without a programmer.
 
 About the event
 ----

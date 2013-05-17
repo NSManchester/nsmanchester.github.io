@@ -3,7 +3,7 @@ html {
   background: url('background.jpg'), url('background_tile.jpg');
   background-repeat: no-repeat, repeat-x;
   background-position: top center, bottom center;
-  
+  background-color:black;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
 }

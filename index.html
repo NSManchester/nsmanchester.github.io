@@ -5,22 +5,24 @@ title: NSManchester - Meet up the last Wednesday of the month
 
 <article>
   {% for post in site.posts limit:1 %}
-  <h2>Upcoming Event  <a href="http://www.meetup.com/NSManchester/events/{{ post.meetup_id }}/" data-event="117438902" class="mu-rsvp-btn">RSVP</a></h2>
-  <h3><a href="{{  post.url }}">{{ post.title }}</a> by <a href="http://twitter.com/{{ post.speaker_twitter }}">{{post.speaker}}</a></h3>
+  <h2>Upcoming Event</h2>
+
+
+    <!--<a href="http://www.meetup.com/NSManchester/events/{{ post.meetup_id }}/" data-event="135872232" class="mu-rsvp-btn">RSVP</a></h2> -->
+  <h3><a href="{{  post.url }}">{{ post.title }}</a></h3>
   <p>{{ post.content | split: '<!-- more -->' | first }}</p>
   {% endfor %}
-  
+<h3><a href="http://lanyrd.com/2013/nsmanchester/">RSVP at Lanyrd</a> and <a href="http://www.meetup.com/NSManchester/events/135872232/" >Meetup</a></h3>
   <div style="text-align:center;"><a href ="/events.html">Past Events</a></div>
 </article>
-  
+
 <article>
   <h2>Where and What?</h2>
   <h3><a href="http://madlab.org.uk">Madlab Manchester</a> at 7pm <span style="font-size:10px"><a href="http://goo.gl/maps/husg">(Directions)</a></h3>
   <ul>
-    <li>There will be a <em>6pm</em> drop in session if you're intersted in iOS/Mac dev.</li>
-    <li><em>7:30 - 8:00</em> Talk</li>
-    <li><em>8:00 - 9:00</em> Roundtable discussion</li>
-    <li><em>10:00+</em> Drinks across the road</li>
+    <li>There will be a <em>6pm</em> drop in session if you're interested in iOS/Mac dev.</li>
+    <li><em>7:00 - 9:00</em> Talks</li>
+    <li><em>9:00+</em> Drinks across the road</li>
 
   </ul>
 </article>
@@ -42,7 +44,7 @@ title: NSManchester - Meet up the last Wednesday of the month
 
 <article class="">
   <h2>Getting in Touch</h2>
-  <p>If you'd like to get involved you can contribute by being active in the <a href="https://groups.google.com/forum/?fromgroups=#!forum/nsmanchester">mailing list</a>, offer <a href="https://github.com/NSManchester/nsmanchester.github.com/issues">Topic comments / ideas</a> or say hi to <a href="http://twitter.com/NSManchester">@NSManchester</a> / <a href="http://twitter.com/orta">@orta</a>.
+  <p>If you'd like to get involved you can contribute by being active in the <a href="https://groups.google.com/forum/?fromgroups=#!forum/nsmanchester">mailing list</a>, offer <a href="https://github.com/NSManchester/nsmanchester.github.com/issues">Topic comments / ideas</a> or say hi to <a href="http://twitter.com/NSManchester">@NSManchester</a> / <a href="http://twitter.com/timd">@timd</a>.
 </article>
 
 
@@ -58,9 +60,9 @@ title: NSManchester - Meet up the last Wednesday of the month
 </article>
 
   <div class="divider"></div>
-  
+
   <article class="extended">
-    <h4 style="color:rgba(255,255,255,0.5)"> NSManchester is a meetup event for iOS and Mac developers in &amp; around Manchester and the North West of England. It's ran by <a href="http://orta.github.io">Orta Therox</a> and hosted by <a href="http://madlab.org.uk">Madlab</a>, please sign up to the mailing list above. This site is <a href="https://github.com/nsmanchester/nsmanchester.github.com/">Open Source</a>.
+    <h4 style="color:rgba(255,255,255,0.5)"><a href="http://nsmanchester.org">NSManchester</a> is a meetup event for iOS and Mac developers in &amp; around Manchester and the North of England. It's run by <a href="http://orta.github.io">Orta Therox</a> and <a href="http://adoptioncurve.net">Tim Duckett</a>, and hosted at <a href="http://madlab.org.uk">Madlab</a>. Please sign up to the mailing list above. This site is <a href="https://github.com/nsmanchester/nsmanchester.github.com/">Open Source</a>.
     </h4>
   </article>
-  
+

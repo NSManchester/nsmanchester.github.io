@@ -1,0 +1,14 @@
+---
+layout: post
+title: The August meetup
+
+speaker: Tim Duckett
+speaker_twitter: timd
+speaker_homepage: http://adoptioncurve.net
+meetup_id: 135872232
+---
+
+This month's topics will include:
+- what's new (and we won't get sued for talking about!) in iOS\[REDACTED\]
+- a look-ahead to iOSDevUK in Aberystwyth from 2nd - 5th September
+- a quick intro to TDD for iOS

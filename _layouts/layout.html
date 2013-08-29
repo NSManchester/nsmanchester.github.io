@@ -1,11 +1,11 @@
 <!-- NSManchester Sat 6th April 2013  - ./orta -->
 <!-- background credit: http://www.wallpapers-room.com/popular/author-122/ -->
 
-<html>  
+<html>
   <head>
   	<title>{{ page.title }}</title>
-    <meta name="description" content="NSManchester is a meetup event for iOS and Mac developers around Manchester and the North West of England. It's ran by Orta Therox, hosted by Madlab and can be found at @nsmanchester.">
-    
+    <meta name="description" content="NSManchester is a meetup event for iOS and Mac developers around Manchester and the North West of England. It's run by Tim Duckett, hosted by Madlab and can be found at @nsmanchester.">
+
     <link rel="stylesheet" href="/assets/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
   </head>
 
@@ -15,18 +15,19 @@
       <header>
         <h1><a href="/" style="color:white;text-decoration:none;">NSManchester</a></h1>
         <hr/>
-        <h3 id="meetup_date"></h3>
-        <hr/> 
+        <h3 id="meetup_date">Next meeting is<br/>
+         Wednesday 25th September
+       </h3>
+        <hr/>
       </header>
-      
+
       {{ content }}
 
-
     </section>
-    
-    <script src="/assets/date.js" type="text/javascript" charset="utf-8"></script>
+
+    <!--<script src="/assets/date.js" type="text/javascript" charset="utf-8"></script>-->
     <script src="/assets/setup.js" type="text/javascript" charset="utf-8"></script>
-    
+
     <script  src="https://api.github.com/repos/NSManchester/nsmanchester.github.com/issues?labels=EventTopic&sort=comments&callback=gotIssues&client_id=053df89bfaeeefbb20dd&client_secret=7a15a256e93171cf11f22c6ab2c808bdc0e89db2" type="text/javascript" charset="utf-8"></script>
 
     <script>

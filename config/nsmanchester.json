@@ -1,0 +1,44 @@
+{
+    "speakers": {
+        "0": {
+            "forename": "Sam",
+            "surname": "Meadley"
+        },
+        "1": {
+            "forename": "Stuart",
+            "surname": "Sharpe"
+        },
+        "2": {
+            "forename": "Ross",
+            "surname": "Butler"
+        },
+        "3": {
+            "forename": "Pawel",
+            "surname": "K"
+        }
+    },
+    "events": [
+               {
+               "date": "07/03/16",
+               "talks": [{
+                         "title": "TBC",
+                         "speaker": "2"
+                         }]
+               },
+               {
+               "date": "01/02/16",
+               "talks": [{
+                         "title": "Target-Action and the Responder Chain on iOS",
+                         "speaker": "0"
+                         },
+                         {
+                         "title": "Hacking XCTest for Fun and Profit",
+                         "speaker": "1"
+                         },
+                         {
+                         "title": "Functional Reactive Programming in RxSwift",
+                         "speaker": "3"
+                         }]
+               }
+               ]
+}

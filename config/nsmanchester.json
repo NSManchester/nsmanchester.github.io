@@ -15,13 +15,24 @@
         "3": {
             "forename": "Pawel",
             "surname": "K"
+        },
+        "4": {
+            "forename": "Kevin",
+            "surname": ""
         }
     },
     "events": [
                {
+               "date": "04/04/16",
+               "talks": [{
+                         "title": "Fun with Xcode Server",
+                         "speaker": "4"
+                         }]
+               },
+               {
                "date": "07/03/16",
                "talks": [{
-                         "title": "TBC",
+                         "title": "Swift Hack: NSManchester iOS App",
                          "speaker": "2"
                          }]
                },
